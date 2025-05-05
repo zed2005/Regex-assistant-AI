@@ -1,6 +1,4 @@
-# Regex-assistant-AI
-BME Prompt Engineering házifeladat.
-# Regex‑kisegítő AI 🤖🔍  
+# Regex‑kisegítő AI
 _Zápor Ádám · 2025_
 
 Ez a projekt egy interaktív chatbotot és egy automatikus benchmark‑rendszert tartalmaz,  
@@ -46,12 +44,7 @@ melyek reguláris kifejezések (regexek) létrehozásában & magyarázatába
 * `get_history(start, end)` → JSON slice, amit az AI tool‑hívással kérhet
 
 ### 3.3 Tool‑flow (egy kérdésre)
-* User kérdés → Chatbot → OpenAI assistant
-* ↪ validate_regex() ↘
-* ↪ get_history() ↘
-* (ha kell) ↘
-* ← JSON / hibaüzenet ← assistant újraír
-* → végső válasz a felhasználónak
+<img src="model_flowchart.drawio.png" alt="Architektúra" width="600">
 
 ## 4  Benchmark rendszer
 * **Feladatlista:** IPv4, IPv6, e‑mail, ISO‑dátum, stb. (`sources.benchmark_prompts`)
