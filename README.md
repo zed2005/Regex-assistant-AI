@@ -50,7 +50,7 @@ melyek reguláris kifejezések (regexek) létrehozásában & magyarázatába
 * **Feladatlista:** IPv4, IPv6, e‑mail, ISO‑dátum, stb. (`sources.benchmark_prompts`)
 * A modell **kötelezően** meghívja `validate_regex`‑et mint tool
 * A wrapper 3 státuszt naplóz: `ok`, `no_match`, `invalid_regex`
-
+* Példa:
 ```json
 {
   "summary": {"calls": 30, "ok": 24, "mismatches": 4, "errors": 2},
