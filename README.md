@@ -73,3 +73,6 @@ python regexp_main.py
 
 * 4b. benchmark futtatása
 python benchmarks.py      # eredmény: bench_stats.json
+
+
+#Pontos dokumentáció a repo-ban .pdf formátumban.
